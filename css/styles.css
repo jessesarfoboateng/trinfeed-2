@@ -1,0 +1,63 @@
+:root {
+  --primaryColor: #01a1ff;
+  --secondaryColor: white;
+}
+
+body {
+  font-family: Poppins, Arial;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.nav-bar {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  align-items: center;
+  font-size: 15px;
+  padding: 20px;
+  z-index: 1; 
+}
+
+.left-header {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.right-header {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.pages, .sign-button {
+  cursor: pointer;
+  transition: opacity 0.5s;
+  font-weight: Bold;
+  /* color: var(--secondaryColor); */
+}
+
+.pages:hover, .sign-button:hover, .stripe-logo:hover{
+  opacity: 0.6;
+}
+
+.sign-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+}
