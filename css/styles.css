@@ -1,34 +1,20 @@
 :root {
   --primaryColor: #01a1ff;
-  --secondaryColor: white;
 }
 
 body {
   font-family: Poppins, Arial;
   margin: 0;
-  padding: 0;
-  width: 100%;
-  margin: 0;
-}
-
-.nav-bar {
-  position: relative;
-  width: 100%;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
 }
 
 .nav-links {
-  position: absolute;
-  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
-  gap: 30px;
+  gap: 25px;
   align-items: center;
   font-size: 15px;
-  padding: 20px;
-  z-index: 1; 
+  padding: 15px; 
 }
 
 .left-header {
@@ -41,17 +27,16 @@ body {
   display: flex;
   gap: 40px;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 300px;
 }
 
 .pages, .sign-button {
   cursor: pointer;
   transition: opacity 0.5s;
-  font-weight: Bold;
-  /* color: var(--secondaryColor); */
+  font-weight: 500;
 }
 
-.pages:hover, .sign-button:hover, .stripe-logo:hover{
+.pages:hover, .sign-button:hover{
   opacity: 0.6;
 }
 
@@ -59,5 +44,28 @@ body {
   padding: 10px 20px;
   border-radius: 20px;
   background-color: var(--primaryColor);
-  color: var(--secondaryColor);
+  color: white;
+}
+
+.join-flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  background-color: rgb(196, 196, 218);
+  padding: 5px;
+}
+
+.code-input {
+  border: 2px solid rgb(184, 175, 175); 
+  border-radius: 15px; 
+  padding: 8px; 
+  font-size: 16px;
+  width: 100px; 
+  text-align: center;
+}
+
+.code-input:focus {
+  border-color: var(--primaryColor);
+  outline: none;
 }
