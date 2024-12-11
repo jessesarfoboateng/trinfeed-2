@@ -72,7 +72,6 @@ body {
   outline: none;
 }
 
-/* From Uiverse.io by Smit-Prajapati */ 
 .parent {
   width: 290px;
   height: 300px;
@@ -306,4 +305,23 @@ body {
 
 .parent:hover .card .logo .circle5 {
   transform: translate3d(0, 0, 120px);
+}
+
+.first-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-topic {
+  font-weight: Bold;
+  font-size: 48px;
+  text-align: center;
+  width: 1000px;
+}
+
+.second-topic {
+  font-size: 20px;
+  margin-top: 0px;
 }
