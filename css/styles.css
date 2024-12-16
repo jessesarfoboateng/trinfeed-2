@@ -38,7 +38,7 @@ body {
   font-weight: 500;
 }
 
-.pages:hover, .sign-button:hover{
+.pages:hover, .sign-button:hover, .feedback-button:hover{
   opacity: 0.6;
 }
 
@@ -312,6 +312,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 
 .first-topic {
@@ -325,3 +326,32 @@ body {
   font-size: 20px;
   margin-top: 0px;
 }
+
+.feedback-button {
+  background-color: var(--primaryColor);
+  color: white;
+  font-family: Poppins, Arial;
+  border: none;
+  padding: 15px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 250px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.macbook-pic {
+  width: 900px;
+  margin-top: 40px;
+}
+
+.centered-text {
+  background-color: #71cafd;
+  font-size: 38px;
+  font-weight: Bold;
+  text-align: center;
+  padding: 40px;
+  margin-top: 60px;
+  color: white;
+}
+
